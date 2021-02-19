@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Area of a Trapezoid</title>
+    <!--Link style.css and google fonts-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <!--All text inside div box-->
+            <h1>Area of Trapezoid Calculator</h1>
+            <img src="images/trapezoid-calculator.gif">
+ 
+            <h2>Inputs</h2>
+            <p>Length of top base (b1): <input id="b1-input" type="text"></p>
+            <p>Length of bottom base (b2): <input id="b2-input" type="text"></p>
+            <p>Height of trapezoid (h): <input id="h-input" type="text"></p>
+             
+            <!--span id tells javascript where to put the output-->
+            <button id=calculateBtn>CALCULATE</button>
+            
+            <br>
+            
+            <h2>Output</h2>
+            
+            <p>The area of the trapezoid: <strong><span id="calculateOutput"> _____ units². </span></strong>
+
+    </div>
+</body>
+
+<!--Load JavaScript--> 
+<script src="main.js"></script>
+
+</html>
